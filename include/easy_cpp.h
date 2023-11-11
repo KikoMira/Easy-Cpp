@@ -27,4 +27,8 @@ namespace Easy_Cpp
         return value;
     }
 
+    bool And(bool a, bool b) {
+    return a && b;
+    }
+
 }
