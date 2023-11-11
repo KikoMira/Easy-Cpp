@@ -31,4 +31,13 @@ namespace Easy_Cpp
     return a && b;
     }
 
+    std::string TableConcat(const std::vector<std::string>& elements, const std::string& separator) {
+    std::ostringstream result;
+    for (const auto& element : elements) {
+        result << element << separator;
+    }
+    return result.str();
+    }
+
+
 }
