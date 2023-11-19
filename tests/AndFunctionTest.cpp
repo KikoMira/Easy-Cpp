@@ -2,6 +2,7 @@
 
 using namespace Easy_Cpp;
 
+//And function
 int main() {
     bool result = And(true, false);
 
